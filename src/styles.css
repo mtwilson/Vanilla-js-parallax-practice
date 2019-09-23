@@ -1,0 +1,139 @@
+ul.container {
+  height: 2800px;
+  list-style: none;
+}
+
+.background-grid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-auto-flow: column;
+  z-index: -1;
+}
+
+.background-grid > span:not(:first-of-type) {
+  border-left: 1px solid #eee;
+}
+
+.item > span {
+  position: absolute;
+}
+
+.item > span {
+  font-size: 100px;
+}
+
+.text {
+  z-index: 1;
+}
+
+.container .item:first-of-type > span {
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container .item:nth-of-type(2) > span {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container .item:nth-of-type(2) > span {
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container .item:nth-of-type(3) > span {
+  top: 160%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container .item:nth-of-type(4) > span {
+  top: 220%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container .item:nth-of-type(5) > span {
+  top: 280%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container .item:nth-of-type(6) > span {
+  height: 60px;
+  width: 60px;
+  top: 50%;
+  left: calc(25% - 30px);
+  background: #616aff;
+  border-radius: 5px;
+}
+
+.container .item:nth-of-type(7) > span {
+  height: 100px;
+  width: 100px;
+  top: 70%;
+  left: calc(50% - 50px);
+  background: #ffda83;
+  border-radius: 50%;
+}
+
+.container .item:nth-of-type(8) > span {
+  height: 80px;
+  width: 80px;
+  top: 40%;
+  left: calc(75% - 40px);
+  background: #dbdeea;
+  border-radius: 5px;
+}
+
+.container .item:nth-of-type(9) > span {
+  height: 50px;
+  width: 50px;
+  top: 120%;
+  left: calc(75% - 25px);
+  background: #2dbae7;
+  border-radius: 5px;
+}
+
+.container .item:nth-of-type(10) > span {
+  height: 120px;
+  width: 120px;
+  top: 130%;
+  left: calc(25% - 60px);
+  background: #fc6e3f;
+  border-radius: 5px;
+}
+
+.container .item:nth-of-type(11) > span {
+  height: 80px;
+  width: 80px;
+  top: 190%;
+  left: calc(50% - 40px);
+  background: #21c8b7;
+  border-radius: 50%;
+}
+
+.container .item:nth-of-type(12) > span {
+  height: 120px;
+  width: 140px;
+  top: 250%;
+  left: calc(25% - 70px);
+  background: #013540;
+  border-radius: 5px;
+}
+
+.container .item:nth-of-type(13) > span {
+  height: 100px;
+  width: 80px;
+  top: 260%;
+  left: calc(75% - 40px);
+  background: #beb0f4;
+  border-radius: 5px;
+}
